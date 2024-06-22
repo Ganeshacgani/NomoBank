@@ -1,0 +1,8 @@
+{
+  "script": "mobile: terminateApp",
+  "args": [
+    {
+      "bundleId": "com.example.sampleapp"
+    }
+  ]
+}
