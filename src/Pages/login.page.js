@@ -7,9 +7,7 @@ class LoginPage {
     get welcomeMessage() { return $('~test-Toggle'); }
 
     async login(username, password) {
-        await (await this.username).waitForDisplayed({ timeout: 90000 });
         await (await this.username).setValue(username);
-        await (await this.password).waitForDisplayed({ timeout: 50000 });
         await (await this.password).setValue(password);
     }
 
